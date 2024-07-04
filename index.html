@@ -13,10 +13,18 @@
             padding: 0;
         }
         #header-parent{
-            background-color: rgba(31, 14, 18);
+            /* background-color: rgba(31, 14, 18); */
+            /* background-image: linear-gradient(to top,#000000,pink); */
+            /* background-image: linear-gradient(75deg,#000000,rgb(176, 206, 101)); */
+            /* background-image: url("../image/coding.jpg"); */
+            background-image: linear-gradient(35deg,#ddd,transparent), url("dekkoImage.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
             height: 600px;
             padding: 100px 0;
-            width: 600px;
+          max-width:1100px;
             /* margin-top: 40px;
             margin-bottom: 10px;
             margin-left: auto;
@@ -32,12 +40,32 @@
             font-size: 80px;
             text-align: center;
         }
+        .btn{
+            background-color: red;
+            padding: 8px 15px;
+            color:#fff;
+            border: solid;
+            border-width: 4px;
+            border-color: yellow;
+            border-radius: 6px;
+            width: 450px;
+            height:100px ;
+        }
+        .btn-parent{
+            text-align: center;
+            background-color: #ddd;
+        }
     </style>
 
 </head>
 <body>
     <div id="header-parent">
     <h1 >Dekko Group</h1>
+        <div class="btn-parent">
+            <button class="btn">Hire me Now</button>
+
+        </div>
+   
 </div>
 </body>
 </html>
